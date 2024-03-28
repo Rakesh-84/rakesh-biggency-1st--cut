@@ -1,0 +1,154 @@
+/* <========Common Css Start========> */
+:root{--primary-color: #0f2f44;}
+*{padding: 0;
+margin: 0;
+outline: 0;
+box-sizing: border-box;
+font-family: "Ubuntu", sans-serif;}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.w-50 {
+    width: 50%;
+}
+.w-33 {
+    width: calc(100% / 3);
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-justify {
+    text-align: justify;
+}
+
+/* <========Common Css end========> */
+
+.top-bar{background-color: var(--primary-color);
+color: #fefefe;
+font-size: 16pt;
+line-height: 24pt;
+font-weight: 400;
+height: 60px;
+width: 100%;
+align-items: center;
+}
+.top-bar p{padding-top: 10px;}
+.nav-bar {height: 95px;
+width: 100%;
+}
+.Nav-bar1{padding-top: 30px;
+padding-bottom:30px ;}
+.Nav-ul{ display: flex;
+text-align: center;
+width: 70%;
+}
+.Nav-ul li{width: calc(100% / 6);
+    font-size: 16pt;
+    line-height: 24pt;
+    color:#444444;
+font-weight: 500;}    
+
+.Nav-ul li:hover{background-color: #fff9e6;
+ 
+display: block;
+}
+
+.hero{width: 100%;
+    height: 800px;
+background-color: #e0eeff;
+background-image: url(./Vector\ Smart\ Object14.svg);
+background-repeat: no-repeat;
+background-position: right;
+background-size: 60%;
+padding-bottom: 135px;
+}
+.hero1{
+width: 50%;
+height: 600px;
+padding-top: 145px;}
+.hero1 h1{font-size: 80pt;
+line-height: 70pt;
+color: var(--primary-color);
+font-weight: 400;
+}
+.hero1 h2{font-size: 50pt;
+    line-height: 70pt;
+    color: var(--primary-color);
+    font-weight: 400;}
+.hero1 h3{font-size: 32pt;
+    line-height: 24pt;
+    color:#8484bf;
+letter-spacing: 18px;
+font-weight: 400;
+padding-top: 23px;
+padding-bottom: 23px;
+}
+.hero1 p{font-size: 14pt;
+    line-height: 24pt;
+    color:#444444;
+font-weight: 400;
+padding-top: 10px;
+padding-bottom: 34px;}
+.hero1 button{font-size: 14pt;
+    line-height: 24pt;
+    background-color: #8484bf;
+    color: #ffffff;
+    text-transform: capitalize;
+font-weight: 400;
+padding: 16px,20px;
+height: 50px;
+border: none;
+width: 164px;
+border-radius: 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
